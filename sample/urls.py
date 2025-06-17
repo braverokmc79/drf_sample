@@ -5,7 +5,7 @@ app_name = "sample"  # 네임스페이스 지정
   
   
 urlpatterns = [
-    path('sample/', views.get_sample_data),    
+    path('', views.get_sample_data),    
 ]
 
 

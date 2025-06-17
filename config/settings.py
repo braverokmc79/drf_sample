@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': [
        'rest_framework.renderers.JSONRenderer',
+       'rest_framework.renderers.BrowsableAPIRenderer',  # <- 이게 있어야 UI 보임
     ]
 }
 
@@ -45,6 +46,7 @@ INSTALLED_APPS = [
     
     'rest_framework',
     'sample',        
+    'sales',
 ]
 
 MIDDLEWARE = [

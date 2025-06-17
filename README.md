@@ -66,7 +66,24 @@ venv\Scripts\activate
 
 ```bash
 pip install -r requirements.txt
+
+#파워셸 :  
+$env:PYTHONUTF8=1; pip install -r requirements.txt
 ```
+
+
+##### 1. 현재 폴더에 프로젝트 생성
+```
+ django-admin startproject config .
+```
+
+##### 2. sample, sales 앱 생성
+```
+python manage.py startapp sample
+python manage.py startapp sales
+
+```
+
 
 3. 서버 실행:
 
@@ -75,6 +92,10 @@ python manage.py runserver
 ```
 
 ---
+
+
+
+
 
 ## 📆 DB 마이그리언션
 
