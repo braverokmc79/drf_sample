@@ -1,0 +1,5 @@
+[
+  { "order_id": "C1001", "product": "아메리카노", "price": 4000, "quantity": 2, "order_date": "2025-06-15" },
+  { "order_id": "C1002", "product": "라떼",       "price": 4500, "quantity": 1, "order_date": "2025-06-15" },
+  { "order_id": "C1003", "product": "아메리카노", "price": 4000, "quantity": 1, "order_date": "2025-06-16" }
+]
